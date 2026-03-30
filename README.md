@@ -12,7 +12,6 @@ Most of us sit down to study without really thinking about whether our mind is a
 There are two interfaces:
 
 - `app.py` — a terminal program you can run anywhere Python is installed  
-- `dashboard.html` — a web dashboard with charts, a Pomodoro timer, and a session history table (open it in any browser, no server needed)
 
 Both use the same rule-based AI logic and can work independently.
 
@@ -24,7 +23,6 @@ Both use the same rule-based AI logic and can work independently.
 smart_study_assistant/
 │
 ├── app.py               # Terminal application (main program)
-├── dashboard.html       # Web dashboard (open in browser)
 ├── study_log.json       # Auto-created when you log your first session
 └── README.md            # You're reading this
 ```
@@ -52,11 +50,6 @@ You'll get a menu like this:
   [0]  Exit
 ```
 
-### Web Dashboard
-
-Just double-click `dashboard.html` or drag it into a browser tab. No server, no installation, no npm. It stores data in your browser's `localStorage`.
-
----
 
 ## How the AI Logic Works
 
